@@ -5,13 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vue-tutor</title>
     <link rel="stylesheet" href="./style.css">
+   
 </head>
 <body>
     
+    <div class="container" id="app">
+        <div class="card">
+            <h1>Счетчик: {{ counter }}</h1>
+            <div>
+                <button class="btn">+</button>
+                <button class="btn">-</button>
+            </div>
+        </div>
+    </div>
 
 
-
-
+    <!-- import vue -->
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="./script.js"></script>
 </body>
-<script src="./script.js"></script>
 </html>
